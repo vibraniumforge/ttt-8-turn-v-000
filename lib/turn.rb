@@ -10,7 +10,6 @@ def valid_move?(board, index)
     return false
 elsif board[index] !="X" || board[index]!="0"
   return true
-
 end
 
 def move(board, index, token="X")
