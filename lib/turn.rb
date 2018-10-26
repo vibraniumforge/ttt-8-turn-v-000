@@ -7,6 +7,10 @@ puts "-----------"
 puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
+def turn(board)
+  puts "Please enter 1-9"
+end
+
 def valid_move?(board, index)
   if index <8 && index>=0
     return true
