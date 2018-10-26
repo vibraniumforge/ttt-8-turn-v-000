@@ -14,6 +14,6 @@ elsif board[index] !="X" || board[index]!="0"
 end
 
 def move(board, index, token="X")
-
+board[index]=token
 
 end
